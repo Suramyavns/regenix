@@ -1,6 +1,20 @@
-# Welcome to your Expo app 👋
+### Welcome to Regenix
+#### A solution to complicated sustainable living in different countries
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**
+I am working on this project with 2 german students from our India Gateway Project - Germany 2025 programme.
+The UI of this app may not be upto standard due to the time constraint and the fact that we are working on this project remotely.
+**
+
+Create a ```.env`` in the root of your project and add your API keys to the following variables:
+```
+EXPO_PUBLIC_WEATHER_API=<get-this-token-from-[here](https://www.weatherapi.com/my/)>
+EXPO_PUBLIC_APPWRITE_ID=<appwrite-project-id>
+EXPO_PUBLIC_AQI_API=<get-this-token-from-[here](https://aqicn.org/data-platform/token/)>
+EXPO_PUBLIC_NLP_API=<hugging-face-token>
+EXPO_PUBLIC_STORAGE_ID=<appwrite-bucket-id>
+EXPO_PUBLIC_DATABASE_ID=<appwrite-database-id>
+```
 
 ## Get started
 
